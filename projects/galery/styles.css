@@ -1,0 +1,34 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+#galery {
+    width: 70%;
+    margin: 83px auto;
+    position: relative;
+    border: 2px solid rgb(255, 115, 0);
+}
+
+#current-image {
+    width: 100%;
+    border-radius: 0px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
