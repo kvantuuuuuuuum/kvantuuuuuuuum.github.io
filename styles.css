@@ -63,7 +63,12 @@ footer {
 }
 
 /* сбросить стили для стандарной ссылки и посещенной */
-main a, main a :visited {
+main a,
+main a :visited {
     text-decoration: none;
     color: black;
+}
+
+.hide {
+    display: none !important;
 }

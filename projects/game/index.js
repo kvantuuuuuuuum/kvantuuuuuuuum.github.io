@@ -81,7 +81,7 @@ function renderBox() {
     $game.innerHTML = ''
     // Создаем объекты
     let box = document.createElement('div')
-    let boxSize = getRandomInt(10,100)
+    let boxSize = getRandomInt(20,100)
     let gameSize = $game.getBoundingClientRect()
     let maxTop = gameSize.height - boxSize
     let maxLeft = gameSize.width - boxSize
